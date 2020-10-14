@@ -12,7 +12,7 @@ export class createOrphanages1602626496907 implements MigrationInterface {
           unsigned: true,
           isPrimary: true,
           isGenerated: true,
-          generationStrategy: 'increment',
+          generationStrategy: 'increment'
         },
         {
           name: 'name',
@@ -37,7 +37,8 @@ export class createOrphanages1602626496907 implements MigrationInterface {
         {
           name: 'instructions',
           type: 'text'
-        }, {
+        },
+        {
           name: 'opening_hours',
           type: 'varchar'
         },
@@ -45,13 +46,12 @@ export class createOrphanages1602626496907 implements MigrationInterface {
           name: 'open_on_weekends',
           type: 'boolean',
           default: false
-        },
-      ],
-    }))
+        }
+      ]
+    }));
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.dropTable('orphanages');
   }
-
 }
