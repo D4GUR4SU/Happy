@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-leaflet
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-router-dom
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\INFRA\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Users\INFRA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PuTTY;C:\Users\INFRA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\INFRA\AppData\Roaming\npm;C:\Development\tools\java\jdk-14.0.1\bin;C:\Development\tools\maven\3.6.3\bin;C:\Development\tools\maven\3.6.3\bin;C:\Development\tools\wildfly\wildfly-10.1.0.Final\bin;C:\Development\tools\IBM\WebSphere\AppServer\bin;C:\Development\tools\IBM\WebSphere\AppServer\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Development\tools\JBoss\forge\bin;C:\Program Files\Java\jdk-11.0.8\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\INFRA\AppData\Local\Microsoft\WindowsApps;C:\Users\INFRA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\INFRA\AppData\Roaming\npm;C:\Users\INFRA\AppData\Local\Yarn\bin
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EBUSY: resource busy or locked, copyfile 'C:\Users\INFRA\AppData\Local\Yarn\Cache\v6\npm-dom-accessibility-api-0.5.4-b06d059cdd4a4ad9a79275f9d414a5c126241166-integrity\node_modules\dom-accessibility-api\dist\accessible-name.mjs.map' -> 'C:\Users\INFRA\Desktop\NLW\web\node_modules\@types\testing-library__dom\node_modules\dom-accessibility-api\dist\accessible-name.mjs.map'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\INFRA\AppData\Local\Yarn\Cache\v6\npm-leaflet-1.7.1-10d684916edfe1bf41d688a3b97127c0322a2a19-integrity\node_modules\leaflet\.yarn-tarball.tgz'
 
 npm manifest: 
   {
@@ -28,6 +28,8 @@ npm manifest:
       "@types/jest": "^24.0.0",
       "@types/node": "^12.0.0",
       "@types/react-dom": "^16.9.8",
+      "leaflet": "^1.7.1",
+      "prop-types": "^15.7.2",
       "react": "^16.13.1",
       "react-dom": "^16.13.1",
       "react-icons": "^3.11.0",
